@@ -35,9 +35,9 @@ app.post('/incoming', (req, res) => {
     });
     }
     else{
-      var msg = twiml.message(`*Hey 👋*
-  I am a bot which summarizes WikiPedia pages to help you find quick information, right within WhatsApp.
-  Try it out - send me anything you want to know about`)
+      var msg = twiml.message(`*Hi there! 👋* 
+        I am a bot with alot of information to help you with and find quick information within WhatsApp. 
+        Exciting send me any thing you want to know and i'll try to find relevant information for you.`)
       res.writeHead(200, {'Content-Type': 'text/xml'});
     res.end(twiml.toString());
     }
