@@ -4,7 +4,8 @@
   "description": "whatsapp chatbot demo",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pm2 start app.js"
   },
   "keywords": [
     "chatbot",
@@ -19,6 +20,7 @@
     "dotenv": "^8.0.0",
     "express": "^4.17.1",
     "jslint": "^0.12.1",
+    "pm2": "^3.5.1",
     "request": "^2.88.0",
     "twilio": "^3.32.0"
   }
