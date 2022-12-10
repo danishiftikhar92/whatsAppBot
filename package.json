@@ -18,7 +18,7 @@
   "dependencies": {
     "babel-cli": "^6.26.0",
     "dotenv": "^8.0.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "jslint": "^0.12.1",
     "pm2": "^3.5.1",
     "request": "^2.88.0",
